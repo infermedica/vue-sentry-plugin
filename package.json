@@ -1,0 +1,24 @@
+{
+  "name": "@infermedica/vue-sentry-plugin",
+  "description": "Sentry plugin for Vue applications.",
+  "version": "0.1.0",
+  "author": "Infermedica",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/infermedica/vue-sentry-plugin"
+  },
+  "files": [
+    "*.js",
+    "README.md"
+  ],
+  "keywords": [
+    "vue",
+    "sentry"
+  ],
+  "dependencies": {
+    "@sentry/browser": "5.4.3",
+    "@sentry/integrations": "5.4.2"
+  }
+}
