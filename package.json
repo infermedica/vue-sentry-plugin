@@ -1,7 +1,7 @@
 {
   "name": "@infermedica/vue-sentry-plugin",
   "description": "Sentry plugin for Vue applications.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Infermedica",
   "license": "MIT",
   "main": "index.js",
