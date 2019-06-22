@@ -31,8 +31,10 @@ export default {
         });
       },
       setUser(id, username, name, email) {
+        const cleanUserObject = {id, username, name, email};
+        Object.keys(cleanUserObject).forEach((key) => !cleanUserObject[key] && delete cleanUserObject[key]);
         Sentry.configureScope((scope) => {
-          scope.setUser({id, username, name, email});
+          scope.setUser(cleanUserObject);
         });
       },
       setActiveInterfaceLanguage(value) {

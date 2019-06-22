@@ -35,6 +35,10 @@ Vue.use(VueSentry);
 
 The plugin will be avaliabe under `VueSentry` and in components under `this.$sentry`.
 
+This plugin automatically sets two Sentry tags:
+* "instance" to the value of `window.location.hostname`
+* "event_layer" to the value "frontend"
+
 
 ### Set additional global Sentry tags
 
